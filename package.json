@@ -1,0 +1,9 @@
+{ "scripts": {
+    "test": "npx cypress open",
+    "test1": "npx cypress run --spec cypress/e2e/login.cy.js --browser chrome",
+    "test2": "npx cypress run --spec cypress/e2e/buy_avatar.cy.js --browser chrome"
+  },
+  "devDependencies": {
+    "cypress": "^12.7.0"
+  }
+}
